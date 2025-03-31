@@ -1,0 +1,34 @@
+[[repositories]]
+path = "mirrorboards"
+repos = [
+    "git@github.com:mirrorboards/platform.git",
+    "git@github.com:mirrorboards/mirrorboards.git",
+    "git@github.com:mirrorboards/mirrorboards-ts.git",
+    "git@github.com:mirrorboards/mirrorboards-go.git",
+    "git@github.com:mirrorboards/mirrorboards-cli.git",
+    "git@github.com:mirrorboards/mctl.git",
+    "git@github.com:mirrorboards/init.git"
+]
+
+[[repositories]]
+path = ".legacy"
+repos = [
+    "git@github.com:mirrorboards/mirrorboards-next-next.git",
+    "git@github.com:mirrorboards/mirrorboards-dev.git",
+    "git@github.com:mirrorboards/mirrorboards-next.git",
+    "git@github.com:mirrorboards/mirrorboards-dev2.git",
+    "git@github.com:mirrorboards/mirrorboards-legacy.git"
+]
+
+[[repositories]]
+path = "mirrorboards-exchange"
+repos = [
+    "git@github.com:Mirrorboards-Exchange/operations.git",
+    "git@github.com:Mirrorboards-Exchange/platform.git"
+]
+
+[[repositories]]
+path = "pay2vault"
+repos = [
+    "git@github.com:pay2vault/platform.git"
+]
