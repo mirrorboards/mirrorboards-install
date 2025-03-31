@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define path variables
-SOURCE_DIR="$HOME/mirrorboards/mirrorboards/mirrorboards-utils/mirrorboards-utils-fish"
+SOURCE_DIR="$HOME/mirrorboards/mirrorboards/mirrorboards-utils-fish"
 TARGET_DIR="$HOME/.config/fish/functions"
 BACKUP_DIR="$HOME/.config/fish/functions-prev"
 
