@@ -1,11 +1,11 @@
 ### Install
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mirrorboards/mctl/refs/heads/main/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mirrorboards/init/refs/heads/main/install.sh)"
 ```
 
 ### Init
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mirrorboards/mctl/refs/heads/main/init.sh)"`
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mirrorboards/init/refs/heads/main/init.sh)"
 ```
