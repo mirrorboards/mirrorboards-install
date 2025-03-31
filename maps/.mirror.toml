@@ -5,15 +5,7 @@ repos = [
   "git@github.com:mirrorboards/.vscode.git",
 ]
 
-[[repositories]]
-path = "mirrorboards"
-prefix = "mirrorboards"
-repos = [
-  "git@github.com:mirrorboards/platform.git",
-  "git@github.com:mirrorboards/init.git",
-  "git@github.com:mirrorboards/fish.git",
-]
-
+# mirrorboards
 [[repositories]]
 path = "mirrorboards"
 prefix = ""
@@ -22,7 +14,23 @@ repos = [
   "git@github.com:mirrorboards/mirrorboards-ts.git",
   "git@github.com:mirrorboards/mirrorboards-go.git",
 ]
+[[repositories]]
+path = "mirrorboards"
+prefix = "mirrorboards"
+repos = [
+  "git@github.com:mirrorboards/platform.git",
+]
 
+# mirrorboards-utils
+[[repositories]]
+path = "mirrorboards-utils"
+prefix = "mirrorboards"
+repos = [
+  "git@github.com:mirrorboards/init.git",
+  "git@github.com:mirrorboards/fish.git",
+]
+
+# .legacy
 [[repositories]]
 path = ".legacy"
 prefix = ""
@@ -34,6 +42,7 @@ repos = [
   "git@github.com:mirrorboards/mirrorboards-legacy.git",
 ]
 
+# mirrorboards-exchange
 [[repositories]]
 path = "mirrorboards-exchange"
 prefix = "mirrorboards-exchange"
@@ -42,6 +51,7 @@ repos = [
   "git@github.com:Mirrorboards-Exchange/platform.git",
 ]
 
+# pay2vault
 [[repositories]]
 path = "pay2vault"
 prefix = ""
