@@ -1,32 +1,51 @@
 [[repositories]]
-path = "mirrorboards"
+path = "."
+prefix = ""
 repos = [
-    "git@github.com:mirrorboards/platform.git",
-    "git@github.com:mirrorboards/mirrorboards.git",
-    "git@github.com:mirrorboards/mirrorboards-ts.git",
-    "git@github.com:mirrorboards/mirrorboards-go.git",
-    "git@github.com:mirrorboards/init.git"
+  "git@github.com:mirrorboards/.vscode.git",
+]
+
+[[repositories]]
+path = "mirrorboards"
+prefix = "mirrorboards"
+repos = [
+  "git@github.com:mirrorboards/platform.git",
+  "git@github.com:mirrorboards/init.git",
+  "git@github.com:mirrorboards/fish.git",
+]
+
+[[repositories]]
+path = "mirrorboards"
+prefix = ""
+repos = [
+  "git@github.com:mirrorboards/mirrorboards.git",
+  "git@github.com:mirrorboards/mirrorboards-ts.git",
+  "git@github.com:mirrorboards/mirrorboards-go.git",
 ]
 
 [[repositories]]
 path = ".legacy"
+prefix = ""
 repos = [
-    "git@github.com:mirrorboards/mirrorboards-next-next.git",
-    "git@github.com:mirrorboards/mirrorboards-dev.git",
-    "git@github.com:mirrorboards/mirrorboards-next.git",
-    "git@github.com:mirrorboards/mirrorboards-dev2.git",
-    "git@github.com:mirrorboards/mirrorboards-legacy.git"
+  "git@github.com:mirrorboards/mirrorboards-next-next.git",
+  "git@github.com:mirrorboards/mirrorboards-dev.git",
+  "git@github.com:mirrorboards/mirrorboards-next.git",
+  "git@github.com:mirrorboards/mirrorboards-dev2.git",
+  "git@github.com:mirrorboards/mirrorboards-legacy.git",
 ]
 
 [[repositories]]
 path = "mirrorboards-exchange"
+prefix = "mirrorboards-exchange"
 repos = [
-    "git@github.com:Mirrorboards-Exchange/operations.git",
-    "git@github.com:Mirrorboards-Exchange/platform.git"
+  "git@github.com:Mirrorboards-Exchange/operations.git",
+  "git@github.com:Mirrorboards-Exchange/platform.git",
 ]
 
 [[repositories]]
 path = "pay2vault"
+prefix = ""
 repos = [
-    "git@github.com:pay2vault/platform.git"
+  "git@github.com:mirrorboards/pay2vault.git",
+  "git@github.com:mirrorboards/pay2vault-platform.git",
 ]
