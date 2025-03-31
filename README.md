@@ -1,7 +1,11 @@
-### mctl
+### Install
 
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mirrorboards/mctl/refs/heads/main/install.sh)"`
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mirrorboards/mctl/refs/heads/main/install.sh)"`
+```
 
-### init
+### Init
 
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mirrorboards/mctl/refs/heads/main/init.sh)"`
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mirrorboards/mctl/refs/heads/main/init.sh)"`
+```
