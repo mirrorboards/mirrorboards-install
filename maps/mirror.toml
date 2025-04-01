@@ -50,7 +50,7 @@ repos = [
 ]
 
 [[repositories]]
-path = "xauth-net"
+path = "."
 repos = [
   {remote = "git@github.com:xauth-net/xauth-net-platform.git", dest = "xauth-net-platform"},
 ]
