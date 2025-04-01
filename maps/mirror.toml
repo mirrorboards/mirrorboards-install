@@ -23,6 +23,7 @@ path = "mirrorboards"
 prefix = ""
 repos = [
   "git@github.com:mirrorboards/mirrorboards-install.git",
+  "git@github.com:mirrorboards/mirrorboards-fish-functions.git",
 ]
 
 # [[repositories]]
