@@ -14,6 +14,11 @@ repos = [
 path = "exchange"
 repos = [
   {remote = "git@github.com:mirrorboards-exchange/mirrorboards-exchange-operations.git", dest = "exchange-operations"},
+]
+
+[[repositories]]
+path = "."
+repos = [
   {remote = "git@github.com:mirrorboards-exchange/mirrorboards-exchange-platform.git", dest = "exchange-platform"},
 ]
 
