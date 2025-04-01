@@ -1,4 +1,3 @@
-# Root VSCode configuration
 [[repositories]]
 path = "."
 repos = [
@@ -20,6 +19,12 @@ repos = [
 ]
 
 [[repositories]]
+path = "."
+repos = [
+  {remote = "git@github.com:mirrorboards/mirrorboards-bin.git", dest = "bin"},
+]
+
+[[repositories]]
 path = "mirrorboards-utils"
 repos = [
   {remote = "git@github.com:mirrorboards/mirrorboards-install.git", dest = "mirrorboards-install"},
@@ -32,7 +37,6 @@ repos = [
   {remote = "git@github.com:mirrorboards/platform.git", dest = "mirrorboards-platform"},
 ]
 
-# [[repositories]]
 [[repositories]]
 path = "pay2vault"
 repos = [
@@ -45,9 +49,6 @@ repos = [
   {remote = "git@github.com:pay2vault/pay2vault-platform.git", dest = "pay2vault-platform"},
 ]
 
-# Exchange repositories
-
-# Xauth repositories
 [[repositories]]
 path = "xauth-net"
 repos = [
