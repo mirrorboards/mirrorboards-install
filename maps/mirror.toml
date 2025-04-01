@@ -5,6 +5,12 @@ repos = [
 ]
 
 [[repositories]]
+path = "."
+repos = [
+  {remote = "git@github.com:mirrorboards/mirrorboards-bin.git", dest = "bin"},
+]
+
+[[repositories]]
 path = "exchange"
 repos = [
   {remote = "git@github.com:mirrorboards-exchange/mirrorboards-exchange-operations.git", dest = "exchange-operations"},
@@ -16,12 +22,6 @@ path = "mirrorboards"
 repos = [
   {remote = "git@github.com:mirrorboards/mirrorboards.git", dest = "mirrorboards"},
   {remote = "git@github.com:mirrorboards/mirrorboards-go.git", dest = "mirrorboards-go"},
-]
-
-[[repositories]]
-path = "."
-repos = [
-  {remote = "git@github.com:mirrorboards/mirrorboards-bin.git", dest = "bin"},
 ]
 
 [[repositories]]
