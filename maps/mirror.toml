@@ -15,8 +15,6 @@ repos = [
 [[repositories]]
 path = "mirrorboards"
 repos = [
-  {remote = "git@github.com:mirrorboards/mirrorboards-install.git", dest = "mirrorboards-install"},
-  {remote = "git@github.com:mirrorboards/mirrorboards-fish-functions.git", dest = "mirrorboards-fish-functions"},
   {remote = "git@github.com:mirrorboards/mirrorboards.git", dest = "mirrorboards"},
   {remote = "git@github.com:mirrorboards/mirrorboards-go.git", dest = "mirrorboards-go"},
 ]
