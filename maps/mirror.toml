@@ -27,63 +27,39 @@ repos = [
   "git@github.com:mirrorboards/mirrorboards-go.git",
 ]
 
-# [[repositories]]
-# path = "mirrorboards"
-# prefix = "mirrorboards-utils"
-# repos = [
-#   "git@github.com:mirrorboards/init.git",
-#   "git@github.com:mirrorboards/fish.git",
-# ]
-
-# [[repositories]]
-# path = "."
-# prefix = "mirrorboards"
-# repos = [
-#   "git@github.com:mirrorboards/platform.git",
-# ]
+[[repositories]]
+path = "."
+prefix = "mirrorboards"
+repos = [
+  "git@github.com:mirrorboards/platform.git",
+]
 
 # # pay2vault
-# [[repositories]]
-# path = "."
-# prefix = ""
-# repos = [
-#   "git@github.com:mirrorboards/pay2vault-platform.git",
-# ]
+[[repositories]]
+path = "."
+prefix = ""
+repos = [
+  "git@github.com:pay2vault/pay2vault-platform.git",
+]
 
-# [[repositories]]
-# path = "pay2vault"
-# prefix = ""
-# repos = [
-#   "git@github.com:mirrorboards/pay2vault.git",
-# ]
+[[repositories]]
+path = "pay2vault"
+prefix = ""
+repos = [
+  "git@github.com:pay2vault/pay2vault.git",
+]
 
-# [[repositories]]
-# path = "."
-# prefix = ""
-# repos = [
-#   "git@github.com:mirrorboards/pay2vault-platform.git",
-# ]
+[[repositories]]
+path = "exchange"
+prefix = ""
+repos = [
+  "git@github.com:mirrorboards-exchange/mirrorboards-exchange-operations.git",
+  "git@github.com:mirrorboards-exchange/mirrorboards-exchange-platform.git",
+]
 
-# # exchange
-# [[repositories]]
-# path = "exchange"
-# prefix = "exchange"
-# repos = [
-#   "git@github.com:mirrorboards-exchange/operations.git",
-# ]
-
-# # exchange
-# [[repositories]]
-# path = "."
-# prefix = "exchange"
-# repos = [
-#   "git@github.com:mirrorboards-exchange/platform.git",
-# ]
-
-# # xauth-platform
-# [[repositories]]
-# path = "."
-# prefix = ""
-# repos = [
-#   "git@github.com:mirrorboards/xauth-platform.git",
-# ]
+[[repositories]]
+path = "xauth-net"
+prefix = ""
+repos = [
+  "git@github.com:xauth-net/xauth-net-platform.git",
+]
