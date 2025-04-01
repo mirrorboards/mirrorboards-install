@@ -24,6 +24,7 @@ prefix = ""
 repos = [
   "git@github.com:mirrorboards/mirrorboards-install.git",
   "git@github.com:mirrorboards/mirrorboards-fish-functions.git",
+  "git@github.com:mirrorboards/mirrorboards-go.git",
 ]
 
 # [[repositories]]
