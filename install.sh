@@ -4,9 +4,8 @@
 
 mkdir -p "$HOME/mirrorboards"
 
-wget -O "$HOME/mirrorboards/mirror.toml" https://raw.githubusercontent.com/mirrorboards/mirrorboards-install/refs/heads/main/maps/mirror.toml
-
 cd "$HOME/mirrorboards"
+wget -O "$HOME/mirrorboards/mirror.toml" https://raw.githubusercontent.com/mirrorboards/mirrorboards-install/refs/heads/main/maps/mirror.toml
 
 mctl clone mirror.toml
 
