@@ -9,6 +9,6 @@ wget -O "$HOME/mirrorboards/mirror.toml" https://raw.githubusercontent.com/mirro
 
 mctl clone mirror.toml
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mirrorboards/mirrorboards-install/refs/heads/main/install-mctl.sh)"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mirrorboards/mirrorboards-install/refs/heads/main/install-github-mirror.sh)"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mirrorboards/mirrorboards-install/refs/heads/main/install-fish-functions.sh)"
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mirrorboards/mirrorboards-install/refs/heads/main/install-mctl.sh)"
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mirrorboards/mirrorboards-install/refs/heads/main/install-github-mirror.sh)"
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mirrorboards/mirrorboards-install/refs/heads/main/install-fish-functions.sh)"
