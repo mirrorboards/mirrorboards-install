@@ -34,14 +34,13 @@ else
     exit 1
 fi
 
-# Create a temporary directory
-TEMP_DIR=$(mktemp -d)
-cd "$TEMP_DIR"
+# Create a temporary directory with a specific prefix
+TEMP_DIR=$(mktemp -d -t mirrorboards-install-XXXXXX)
+trap 'rm -rf "$TEMP_DIR"' EXIT
 
 echo "Cloning Mirrorboards repository..."
-if ! git clone git@github.com:mirrorboards/mirrorboards-go.git; then
+if ! git clone git@github.com:mirrorboards/mirrorboards-go.git "$TEMP_DIR/mirrorboards-go"; then
     echo -e "${RED}Error: Failed to clone repository. Make sure you have git installed and SSH access to the repository.${NC}"
-    rm -rf "$TEMP_DIR"
     exit 1
 fi
 
@@ -51,13 +50,8 @@ if [ -f "$TEMP_DIR/mirrorboards-go/mirrorboards-cli/bin/mctl" ]; then
     chmod +x "$INSTALL_DIR/mctl"
 else
     echo -e "${RED}Error: Binary file not found in the repository.${NC}"
-    rm -rf "$TEMP_DIR"
     exit 1
 fi
-
-# Clean up
-cd - > /dev/null
-rm -rf "$TEMP_DIR"
 
 echo -e "${GREEN}Installation complete!${NC}"
 echo -e "mctl has been installed to: ${GREEN}$INSTALL_DIR/mctl${NC}"
