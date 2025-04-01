@@ -1,65 +1,63 @@
+# Root VSCode configuration
 [[repositories]]
 path = "."
-prefix = ""
 repos = [
-  "git@github.com:mirrorboards/.vscode.git",
-]
-
-# .legacy
-# [[repositories]]
-# path = ".legacy"
-# prefix = ""
-# repos = [
-#   "git@github.com:mirrorboards/mirrorboards-next-next.git",
-#   "git@github.com:mirrorboards/mirrorboards-dev.git",
-#   "git@github.com:mirrorboards/mirrorboards-next.git",
-#   "git@github.com:mirrorboards/mirrorboards-dev2.git",
-#   "git@github.com:mirrorboards/mirrorboards-legacy.git",
-# ]
-
-# mirrorboards
-[[repositories]]
-path = "mirrorboards"
-prefix = ""
-repos = [
-  "git@github.com:mirrorboards/mirrorboards-install.git",
-  "git@github.com:mirrorboards/mirrorboards-fish-functions.git",
-  "git@github.com:mirrorboards/mirrorboards-go.git",
-]
-
-[[repositories]]
-path = "."
-prefix = "mirrorboards"
-repos = [
-  "git@github.com:mirrorboards/platform.git",
-]
-
-# # pay2vault
-[[repositories]]
-path = "."
-prefix = ""
-repos = [
-  "git@github.com:pay2vault/pay2vault-platform.git",
-]
-
-[[repositories]]
-path = "pay2vault"
-prefix = ""
-repos = [
-  "git@github.com:pay2vault/pay2vault.git",
+  {remote = "git@github.com:mirrorboards/mirrorboards-vscode.git", dest = ".vscode"},
 ]
 
 [[repositories]]
 path = "exchange"
-prefix = ""
 repos = [
-  "git@github.com:mirrorboards-exchange/mirrorboards-exchange-operations.git",
-  "git@github.com:mirrorboards-exchange/mirrorboards-exchange-platform.git",
+  {remote = "git@github.com:mirrorboards-exchange/mirrorboards-exchange-operations.git", dest = "exchange-operations"},
+  {remote = "git@github.com:mirrorboards-exchange/mirrorboards-exchange-platform.git", dest = "exchange-platform"},
 ]
 
 [[repositories]]
-path = "xauth-net"
-prefix = ""
+path = "mirrorboards"
 repos = [
-  "git@github.com:xauth-net/xauth-net-platform.git",
+  {remote = "git@github.com:mirrorboards/mirrorboards-install.git", dest = "mirrorboards-install"},
+  {remote = "git@github.com:mirrorboards/mirrorboards-fish-functions.git", dest = "mirrorboards-fish-functions"},
+  {remote = "git@github.com:mirrorboards/mirrorboards.git", dest = "mirrorboards"},
+  {remote = "git@github.com:mirrorboards/mirrorboards-go.git", dest = "mirrorboards-go"},
 ]
+
+[[repositories]]
+path = "mirrorboards-utils"
+repos = [
+  {remote = "git@github.com:mirrorboards/mirrorboards-install.git", dest = "mirrorboards-install"},
+  {remote = "git@github.com:mirrorboards/mirrorboards-fish-functions.git", dest = "mirrorboards-fish-functions"},
+]
+
+[[repositories]]
+path = "."
+repos = [
+  {remote = "git@github.com:mirrorboards/platform.git", dest = "mirrorboards-platform"},
+]
+
+# [[repositories]]
+[[repositories]]
+path = "pay2vault"
+repos = [
+  {remote = "git@github.com:pay2vault/pay2vault.git", dest = "pay2vault"},
+]
+
+[[repositories]]
+path = "."
+repos = [
+  {remote = "git@github.com:pay2vault/pay2vault-platform.git", dest = "pay2vault-platform"},
+]
+
+# Exchange repositories
+
+# Xauth repositories
+[[repositories]]
+path = "xauth-net"
+repos = [
+  {remote = "git@github.com:xauth-net/xauth-net-platform.git", dest = "xauth-net-platform"},
+]
+
+# #   "git@github.com:mirrorboards/mirrorboards-next-next.git",
+# #   "git@github.com:mirrorboards/mirrorboards-dev.git",
+# #   "git@github.com:mirrorboards/mirrorboards-next.git",
+# #   "git@github.com:mirrorboards/mirrorboards-dev2.git",
+# #   "git@github.com:mirrorboards/mirrorboards-legacy.git",
