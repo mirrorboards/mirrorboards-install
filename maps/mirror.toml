@@ -53,6 +53,7 @@ path = "pay2vault"
 repos = [
   {remote = "git@github.com:pay2vault/pay2vault-api.git", dest = "pay2vault-api"},
   {remote = "git@github.com:pay2vault/pay2vault-mobile.git", dest = "pay2vault-mobile"},
+  {remote = "git@github.com:pay2vault/pay2vault-web.git", dest = "pay2vault-web"},
 ]
 
 [[repositories]]
