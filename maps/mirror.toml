@@ -45,7 +45,7 @@ repos = [
 [[repositories]]
 path = "pay2vault"
 repos = [
-  {remote = "git@github.com:pay2vault/pay2vault.git", dest = "pay2vault"},
+  {remote = "git@github.com:mirrorboards/mirrorboards.git", dest = "pay2vault"}, # {remote = "git@github.com:pay2vault/pay2vault.git", dest = "pay2vault"},
 ]
 
 [[repositories]]
