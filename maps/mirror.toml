@@ -68,8 +68,11 @@ repos = [
   {remote = "git@github.com:xauth-net/xauth-net-platform.git", dest = "xauth-net-platform"},
 ]
 
-# #   "git@github.com:mirrorboards/mirrorboards-next-next.git",
-# #   "git@github.com:mirrorboards/mirrorboards-dev.git",
-# #   "git@github.com:mirrorboards/mirrorboards-next.git",
-# #   "git@github.com:mirrorboards/mirrorboards-dev2.git",
-# #   "git@github.com:mirrorboards/mirrorboards-legacy.git",
+[[repositories]]
+path = "legacy"
+repos = [
+  {remote = "git@github.com:mirrorboards/mirrorboards-next-next.git", dest = "mirrorboards-next-next"},
+  {remote = "git@github.com:mirrorboards/mirrorboards-dev.git", dest = "mirrorboards-dev"},
+  {remote = "git@github.com:mirrorboards/mirrorboards-next.git", dest = "mirrorboards-next"},
+  {remote = "git@github.com:mirrorboards/mirrorboards-legacy.git", dest = "mirrorboards-legacy"},
+]
